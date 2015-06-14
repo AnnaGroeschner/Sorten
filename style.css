@@ -1,0 +1,81 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+body{
+ background:#F7EBDC;
+}
+
+.header{
+  height:180px;
+}
+
+.avocado_nav svg{
+ width:100px;
+ margin-top:5px;
+ margin-left:20px;
+}
+
+.nav_Heading{
+  position:relative;
+  top:-100px;
+  left:190px;
+  font-family:sans-serif;
+  font-size:1.5em;
+}
+.nav_Heading:before{
+  /*Pfeil VOR (-->before) Heading*/
+  content:'';
+  width:50px;
+  height:50px;
+  top:0;
+  left:-50px;
+  bottom:0;
+  margin:auto;
+  position:absolute;
+  background-image:url(https://t1.ftcdn.net/jpg/00/43/83/42/400_F_43834209_WjN4ar9OcFzklzrH4Sfc2mjpLeZUSDRp.jpg);
+  background-position:center center;
+  background-repeat:no-repeat;
+  background-size:100% auto; 
+}
+
+img {
+display:block;
+}
+
+/*BilderBox*/
+.bilder{
+  width:200px;
+  float:left;
+  margin:0 5% 0 5%;
+}
+
+.bild1{
+  max-width:40%;
+  min-width:100px;
+  position:relative;
+  margin:0px 50px;
+}
+
+.bild2{
+  max-width:40%;
+  min-width:100px;
+  position:relative;
+  margin:10px 50px;
+}
+
+
+/*Text*/
+p{
+  margin-top:50px;
+}
+
+.fliesstext{
+ font-family:sans-serif;
+ font-size:15px;
+ line-height:1.5em;
+ float:left;
+ width:55%;
+}
